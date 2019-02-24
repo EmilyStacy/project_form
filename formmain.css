@@ -1,0 +1,73 @@
+*
+{
+    box-sizing:border-box;
+}
+
+#tForm
+{
+    display:block;
+}
+p.small {
+    font-variant: small-caps;
+}
+
+h1{
+  
+  width:500px;
+  
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+input[type=date],select {
+  width: 55%;
+  padding:5px;
+  margin:10px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+ul,ol
+{
+  list-style:none;
+  padding: 0px;
+  
+}
+
+ul li input
+{
+  
+  display: inline-block;
+  float:right;
+  width:70%;
+}
+
+ol li
+{
+  display:inline;
+  
+  
+}
+  
+#submit
+{
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size:15px;
+border: 1px solid #ccc;
+  width:50%;
+  padding:5px;
+}
+  
